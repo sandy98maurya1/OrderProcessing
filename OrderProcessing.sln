@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing", "OrderProcessing\OrderProcessing.csproj", "{ED7729AE-AC60-4154-B1C4-1CA8EB3ED420}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestOrderProcess", "NUnitTestOrderProcess\NUnitTestOrderProcess.csproj", "{FF7840B0-C0D8-415B-898F-F0A3B14D31BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{ED7729AE-AC60-4154-B1C4-1CA8EB3ED420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED7729AE-AC60-4154-B1C4-1CA8EB3ED420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED7729AE-AC60-4154-B1C4-1CA8EB3ED420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7840B0-C0D8-415B-898F-F0A3B14D31BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7840B0-C0D8-415B-898F-F0A3B14D31BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7840B0-C0D8-415B-898F-F0A3B14D31BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7840B0-C0D8-415B-898F-F0A3B14D31BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
