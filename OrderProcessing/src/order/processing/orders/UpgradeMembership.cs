@@ -8,15 +8,19 @@ namespace OrderProcessing.src.order.processing.orders
 {
     public class UpgradeMembership : IOrder
     {
-        public void ActionTaken()
+        public void ActionTaken(out int result)
         {
             try
             {
                 Console.WriteLine("Upgrade membership.");
                 Console.WriteLine("Inform user through email about upgrade membership");
+                result = 1;
+
             }
             catch (Exception e)
             {
+                result = 0;
+
                 Logexception.obj.Log("Error: " + e.Message);
             }
         }

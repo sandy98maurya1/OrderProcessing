@@ -16,10 +16,11 @@ namespace OrderProcessing
 
 
             int OrderType = Convert.ToInt16(Console.ReadLine());
+            int result;
             IOrder objOrder;
             OrderProcess obj = new OrderProcess();
             objOrder = obj.GetOrder(OrderType);
-            objOrder.ActionTaken();
+            objOrder.ActionTaken(out result);
 
             Console.ReadLine();
         }

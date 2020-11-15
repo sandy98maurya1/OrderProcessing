@@ -6,6 +6,6 @@ namespace OrderProcessing.src.order.processing.orderInterface
 {
     public interface IOrder
     {
-        void ActionTaken();
+        void ActionTaken(out int result);
     }
 }
